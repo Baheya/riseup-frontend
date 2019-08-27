@@ -1,0 +1,30 @@
+.speakers-page-container {
+  padding: 70px 0px;
+  position: relative;
+  .back-drop {
+    background-color: rgba(48, 49, 48, 0.42);
+    height: 100%;
+    // position: fixed;
+    transition: all 1.3s;
+    width: 100%;
+  }
+  .page-title {
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    color: #254d9f;
+    height: 58px;
+    letter-spacing: 10px;
+    text-align: center;
+    width: 1425px;
+    margin-bottom: 30px;
+  }
+  .speakers-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 30px;
+  }
+}

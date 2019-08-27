@@ -1,0 +1,35 @@
+@import '../mixins.scss';
+
+.speaker-container {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  margin: 10px 0;
+  .speaker-info {
+    position: absolute;
+    text-align: center;
+    top: 68%;
+    left: 30%;
+    color: $white;
+    h4 {
+      margin: 2px;
+    }
+    h5 {
+      margin: 2px;
+    }
+    p {
+      margin: 2px;
+    }
+  }
+  img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    background-size: cover;
+    transform: translateY(-50%) scale(1.5);
+    filter: gray brightness(50%);
+    -webkit-filter: grayscale(1);
+  }
+}
